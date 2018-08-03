@@ -1,0 +1,112 @@
+body {
+    /* font-family: 'Raleway', sans-serif; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+nav {
+    text-align: center;
+    color: #7B97A5;
+    text-transform: uppercase;
+    font-size: .75em;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 55px;
+}
+
+a {
+    text-decoration: none;
+    color: #7B97A5;
+    font-weight: 600;
+}
+
+.mountain {
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 2em;
+    position: absolute;
+    top: 29%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;
+    color: #FFFFFF;
+    display: block;
+}
+
+main {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin-top: 60px;
+}
+
+h3 {
+    font-size: 1.65em;
+}
+
+h2, h3 {
+    color: #46545F;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'LATO', sans-serif;
+    color: #7B97A5;
+    font-weight: 400;
+}
+
+.brunch {
+    position: relative;
+    margin-top: 50px;
+}
+
+.issues {
+    line-height: 1.5;
+    margin-left: -25px;
+}
+
+footer {
+    color: #46545F;
+    font-weight: 600;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #CDF3F6;
+    margin-top: 22px;
+}
+
+footer p {
+    text-transform: none;
+    font-size: .8em;
+}
+
+.social {
+    padding: 30px;
+    display: flex;
+    width: 12%;
+    justify-content: space-between;
+    margin: auto;
+}
+
+hr {
+    border-top-color: #000000;
+}
