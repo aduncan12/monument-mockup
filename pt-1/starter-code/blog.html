@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- added css & google fonts (Raleway 600 & LATO 400)-->
-    <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/blog.css">
+
 
     <!-- changed title to Monument -->
     <title>A Monumental Blog</title>
@@ -43,33 +44,49 @@
         </article>            
 
     <!-- added About Us -->
-    <h2>About Us</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure omnis possimus officiis animi aut maxime a aliquid consequatur nihil pariatur optio, nesciunt itaque facilis, at esse natus necessitatibus, odio expedita.</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quod, asperiores debitis illo quos neque ea dicta. Iste nihil consequuntur voluptas nulla corporis, voluptatum soluta odio quia suscipit a magni!</p>
+        <aside>
+        <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure omnis possimus officiis animi aut maxime a aliquid consequatur nihil pariatur optio, nesciunt itaque facilis, at esse natus necessitatibus, odio expedita.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore quod, asperiores debitis illo quos neque ea dicta. Iste nihil consequuntur voluptas nulla corporis, voluptatum soluta odio quia suscipit a magni!</p>
 
-        <div class="brunch">
-            <img src="images/about.jpg" alt="Brunch">
-        </div>        
+            <div class="brunch">
+                <img src="images/about.jpg" alt="Brunch">
+            </div>        
 
-    <!-- added Recent Issues -->
-    <h2>Recent Issues</h2>    
-        <ul class="issues">
-            <li><a href="#">Issue Nineteen &dash; Camping</a></li>
-            <li><a href="#">Issue Eighteen &dash; Food</a></li>
-            <li><a href="#">Issue Seventeen &dash; Signs</a></li>
-            <li><a href="#">Issue Sixteen &dash; Friends</a></li>
-            <li><a href="#">Issue Fifteen &dash; Carnivals</a></li>
-            <li><a href="#">Issue Fourteen &dash; Gatherings</a></li>
-         </ul>
+        <!-- added Recent Issues -->
+        <h2>Recent Issues</h2>    
+            <ul class="issues">
+                <li><a href="#">Issue Nineteen &dash; Camping</a></li>
+                <li><a href="#">Issue Eighteen &dash; Food</a></li>
+                <li><a href="#">Issue Seventeen &dash; Signs</a></li>
+                <li><a href="#">Issue Sixteen &dash; Friends</a></li>
+                <li><a href="#">Issue Fifteen &dash; Carnivals</a></li>
+                <li><a href="#">Issue Fourteen &dash; Gatherings</a></li>
+            </ul>
+        </aside>    
     </main>
-
+    <!-- comment form display grid -->
+    <div class="comment">
+        <h4>LEAVE A COMMENT</h4>
+        <form class="comment" method="GET" action="/page">
+            <input type="text" class="commentName" name="name" placeholder="NAME">
+            <input type="text" class="commentEmail" name="email" placeholder="EMAIL">    
+            <input type="text" class="commentComment" name="comment" placeholder="COMMENT">
+            <input type="submit" class="commentSubmit" value="SUBMIT">    
+        </form>
+    </div>  
     <!-- added footer info -->
     <footer>
         <div class="social">
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-instagram"></i>
-        </div>        
+            <a href="#"></a><i class="fab fa-facebook-square"></i>
+            <a href="#"></a><i class="fab fa-twitter-square"></i>
+            <a href="#"></a><i class="fab fa-instagram"></i>
+        </div>  
+        
+        <form class="footer" method="GET" action="/page">
+            <input class="email" type="text" name="email" placeholder="EMAIL ADDRESS">
+            <input class="submit" type="submit" value="KEEP IN TOUCH">
+        </form>
         <hr>
         <p>&copy; 2016 Sarah Holden</p>
     </footer>        
